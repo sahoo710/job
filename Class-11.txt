@@ -1,0 +1,23 @@
+Jenkins Responsibilities
+==========================
+1.Jenkins Adminstartion----------> Installation of Jenkins
+2.Jenkins Configuration ------------> Integration of other tools with jenkins
+3.Jenkins jobs and support -----------> Create Jenkins jobs with input java code and create jobs and create artifacts
+
+Stage - 1
+==========
+
+Jenkins Adminstartion role.
+
+create server in any cloud aws/azure
+install required packages for jenkins
+create username and password for jenkins
+
+sudo sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+sudo sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+
+
+winscp:- used to copy files from windows<->linux
+when we are using ec2 server login from winscp we must use .ppk file for login
+
+puttygen:- used to convert .pem file to .ppk file.
